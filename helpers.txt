@@ -1,0 +1,2 @@
+javac -classpath ../../../../lib/align.jar:../../../../lib/ontowrap.jar:../../../../lib/alignsvc.jar LeanOMMatcher.java
+java -classpath .:../../../../lib/ontowrap.jar:../../../../lib/procalign.jar:results fr.inrialpes.exmo.align.cli.Procalign -i org.albertmeronyo.matchers.LeanOMMatcher file://$CWD/myOnto.owl file://$CWD/edu.mit.visus.bibtex.owl -r fr.inrialpes.exmo.align.impl.renderer.HTMLRendererVisitor -o equal.html -t 0.85
