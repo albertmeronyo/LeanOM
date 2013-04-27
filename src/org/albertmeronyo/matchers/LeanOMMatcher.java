@@ -161,7 +161,9 @@ public class LeanOMMatcher extends ObjectAlignment implements AlignmentProcess{
         	e.printStackTrace();
         } catch (IOException e) {
 			e.printStackTrace();
-		}        
+		}
+        
+        
     	return 0.0;
     }
     
